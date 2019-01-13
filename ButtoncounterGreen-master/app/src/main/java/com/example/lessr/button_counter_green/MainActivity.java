@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         decrease = (Button) findViewById(R.id.btn2);
         reset = (Button) findViewById(R.id.btn3);
 
+        //to increase the counter//
         increase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //to decrease the counter//
         decrease.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //to reset the counter//
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
